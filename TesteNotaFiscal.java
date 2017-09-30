@@ -11,7 +11,7 @@ import java.util.List;
 public class TesteNotaFiscal {
 
     public static void main(String[] args) {
-        List<AcaoAposGerarNota> acoes = new ArrayList<>();
+        List<AcaoAposGerarNota>  acoes = new ArrayList<>();
         NotaFiscal nf = new NotaFiscalBuilder(acoes).paraEmpresa("Caelum")
                 .comCnpj("123.456.789/0001-10")
                 .comItem(new ItemDaNota("item 1", 100.0))
